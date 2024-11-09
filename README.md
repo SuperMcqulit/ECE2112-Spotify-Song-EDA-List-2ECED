@@ -49,9 +49,9 @@ Do certain genres or artists consistently appear in more playlists or charts? Pe
 
 - Version 1 - First implementation of cades to the said csv file / Configuration of proper formating
 
-- Version 2 -
+- Version 2 - Added functionality to calculate and display / performed basic data checks
 
-- Version 3 - 
+- Version 3 - Enhanced the analysis by identifying more problems in the dataset / Provided the complete code for the analysis, along with visualizations and interpretation steps
 
 - Version 4 - Final Output / All guide questions are answered / No added features
   
