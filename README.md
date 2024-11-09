@@ -41,8 +41,43 @@ Do certain genres or artists consistently appear in more playlists or charts? Pe
 
 ## Assessment Analysis, Explanation, and Process
 
+Analysis: 
+This project involves analyzing a dataset of Spotify tracks in 2023. The analysis focuses on different aspects of the dataset, such as the most streamed tracks, platform presence, stream trends, and the relationship between attributes like key, mode, and genre. The project uses Python, specifically Pandas for data manipulation and Matplotlib/Seaborn for data visualization.
 
+Explanation:
+The first step in the process was to load the dataset using Pandas. After loading, we ensured that the dataset was clean and ready for analysis by checking for missing or inconsistent data. Exploratory Data Analysis was then performed to understand the dataset better. Various visualizations were created using Matplotlib and Seaborn to support the analysis. For instance, Bar charts for comparing the number of tracks across platforms or like Histograms and box plots for analyzing the distribution of streams.
+
+Process:
+1. Data Preparation - Load the dataset such as pd.read_csv('spotify-2023.csv') and cleaning the dataset
+2. Data Aggregation - Used different operations to aggregate data and calculate metrics
+3. Visualization - Various visualizations helped identify problems such as trends and outliers
+4. Analysis - Examined unique correlations between datas
+   
 ## Expected Outputs
+
+Track Count by Platform:
+Spotify Playlists had the highest number of tracks, followed by Spotify Charts then Apple Playlists.
+
+![image](https://github.com/user-attachments/assets/cf541b8f-f8a5-4699-9c6c-55eb93152886)
+
+
+Platform Preferences:
+Spotify Charts favored tracks with higher streams, indicating that the found platform have more popular tracks.
+
+![image](https://github.com/user-attachments/assets/f8f4724e-672a-4487-a89d-8923e74261ab)
+
+
+Key and Mode Influence:
+Tracks in Major keys were found to generally have higher streams compared to tracks in Minor keys. 
+
+![image](https://github.com/user-attachments/assets/5a231624-18e4-4cb3-bdae-427c91734239)
+
+
+Artist Trends:
+Certain artists consistently appeared more frequently across platforms, particularly in Spotify Charts and Spotify Playlists.
+
+![image](https://github.com/user-attachments/assets/fa49d271-5d85-4ddf-af77-f2fb23fb73d9)
+
 
 
 ## Version and Edit History 
@@ -51,7 +86,9 @@ Do certain genres or artists consistently appear in more playlists or charts? Pe
 
 - Version 2 - Added functionality to calculate and display / performed basic data checks
 
-- Version 3 - Enhanced the analysis by identifying more problems in the dataset / Provided the complete code for the analysis, along with visualizations and interpretation steps
+- Version 3.1 - Enhanced the analysis by identifying more problems in the dataset / Provided the complete code for the analysis, along with visualizations and interpretation steps
+
+- Version 3.2 - Use of functions pd.to_numeric() and notnull() methods to clean the dataset / use of function groupby() for computing statistics
 
 - Version 4 - Final Output / All guide questions are answered / No added features
   
